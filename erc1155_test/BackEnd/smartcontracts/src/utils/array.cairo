@@ -1,6 +1,6 @@
 from starkware.cairo.common.memcpy import memcpy
 from starkware.cairo.common.alloc import alloc
-
+// function that concatenates
 func concat_arr{range_check_ptr}(arr1_len: felt, arr1: felt*, arr2_len: felt, arr2: felt*) -> (
     res: felt*, res_len: felt
 ) {
